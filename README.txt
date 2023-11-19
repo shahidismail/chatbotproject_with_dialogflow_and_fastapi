@@ -1,27 +1,5 @@
-Directory structure
-===================
-backend: Contains Python FastAPI backend code
-db: contains the dump of the database. you need to import this into your MySQL db by using MySQL workbench tool
-dialogflow_assets: this has training phrases etc. for our intents
-frontend: website code
+Embark on a transformative journey as we develop a sophisticated chatbot in Dialogflow tailored for a food delivery system. This end-to-end project will comprehensively cover Dialogflow basics, guide you through the process of building a backend in Python using FastAPI, and showcase seamless interactions with a MySQL database. Throughout the project, we will explore Dialogflow fundamentals such as intents, entities, contexts, providing you with a solid foundation for creating intelligent conversational interfaces.
 
-Install these modules
-======================
+Acknowledging the valuable contribution of Codebasics, we will showcase the integration of FastAPI, a cutting-edge web framework, highlighting its prowess in facilitating communication between Dialogflow and the backend. The inclusion of a MySQL database adds a layer of data management, enhancing the overall functionality and efficiency of the food delivery system.
 
-pip install mysql-connector
-pip install "fastapi[all]"
-
-OR just run pip install -r backend/requirements.txt to install both in one shot
-
-To start fastapi backend server
-================================
-1. Go to backend directory in your command prompt
-2. Run this command: uvicorn main:app --reload
-
-ngrok for https tunneling
-================================
-1. To install ngrok, go to https://ngrok.com/download and install ngrok version that is suitable for your OS
-2. Extract the zip file and place ngrok.exe in a folder.
-3. Open windows command prompt, go to that folder and run this command: ngrok http 80000
-
-NOTE: ngrok can timeout. you need to restart the session if you see session expired message.
+By the conclusion of this project, you will have gained a comprehensive understanding of building an intelligent chatbot for a food delivery system. Whether you're a beginner exploring conversational interfaces or an experienced developer looking to enhance your skill set, this project is designed to empower you with the skills needed to create an efficient chatbot. Join us on this transformative journey as we navigate the realms of Dialogflow, FastAPI, and MySQL, creating a seamless and intuitive solution for the food delivery industry.
